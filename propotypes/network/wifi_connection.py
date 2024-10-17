@@ -9,8 +9,8 @@ Email: ilyamunaev@gmail.com
 import network
 import time
 
-WIFI_NETWORK = 'NETWORK_NAME'  # Replace with the actual name
-WIFI_PASSWORD = 'NETWORK_PASSWORD'  # Replace with the actual password
+WIFI_NETWORK = 'WIFI_NETWORK'  # Replace with the actual name
+WIFI_PASSWORD = 'WIFI_PASSWORD'  # Replace with the actual password
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
