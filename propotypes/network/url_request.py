@@ -1,5 +1,5 @@
 # !
-# This script is DEPRECATED, see wifi_setup.py instead.
+# This script is DEPRECATED, see make_url_request.py instead.
 # !
 
 """
