@@ -1,3 +1,7 @@
+# !
+# This script is DEPRECATED, see wifi_setup.py instead.
+# !
+
 """
 --- Test Request/Response via Wi-Fi connection ---
 
@@ -8,15 +12,15 @@ Email: ilyamunaev@gmail.com
 import urequests
 import network
 
-# Initialize and connect to Wi-Fi
-WIFI_NETWORK = 'WIFI_NETWORK'  # Replace with the actual name
+# Setup connectionto Wi-Fi
+WIFI_NAME = 'WIFI_NAME'  # Replace with the actual name
 WIFI_PASSWORD = 'WIFI_PASSWORD'  # Replace with the actual password
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect(WIFI_NETWORK, WIFI_PASSWORD)
+wlan.connect(WIFI_NAME, WIFI_PASSWORD)
 
-print("\nConnected to ",WIFI_NETWORK)
+print("\nConnected to ", WIFI_NAME)
 
 # Make an API request to get a random joke
 url = "https://official-joke-api.appspot.com/random_joke"
