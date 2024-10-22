@@ -1,3 +1,10 @@
+"""
+--- Test Soil Moisture Sensor ---
+
+Created: 20.10.2024
+Author: Ilia Munaev
+Email: ilyamunaev@gmail.com
+"""
 import machine
 import time
 
